@@ -8,14 +8,14 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route
-        path="/initial-page"
+        path='/initial-page'
         element={
-          <Button variant="contained" color="primary" onClick={toggleTheme}>
+          <Button variant='contained' color='primary' onClick={toggleTheme}>
             Initial Page
           </Button>
         }
       />
-      <Route path="*" element={<Navigate to="/initial-page" />} />
+      <Route path='*' element={<Navigate to='/initial-page' />} />
     </Routes>
   );
 };
